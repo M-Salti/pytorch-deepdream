@@ -12,7 +12,7 @@ from deepdreamer import DeepDreamer
 from utils import open_image
 
 
-dream = DeepDreamer(model_name="inception_v3", layers_names=[], "cuda:0)
+dream = DeepDreamer(model_name="inception_v3", layers_names=[], "cuda:0")
 
 img = open_image("example_img.jpg")
 
